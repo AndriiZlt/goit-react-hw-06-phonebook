@@ -12,22 +12,19 @@ export default function Filter() {
 
   return (
     <div style={{ display: 'flex' }}>
-      <label className={css.label}>
-        Find contacts by name:
-        <div>
-          <input
-            type="text"
-            name="filter"
-            value={filter}
-            onChange={filterChangeHandler}
-            className={css.input}
-            placeholder="Filter by.."
-          />
-          <button type="button" onClick={() => dispatch(changeFilter(''))}>
-            x
-          </button>
-        </div>
-      </label>
+      <div>
+        <input
+          type="text"
+          name="filter"
+          value={filter}
+          onChange={filterChangeHandler}
+          className={css.input}
+          placeholder="Filter by name.."
+        />
+        <button type="button" onClick={() => dispatch(changeFilter(''))}>
+          x
+        </button>
+      </div>
     </div>
   );
 }

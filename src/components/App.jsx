@@ -35,7 +35,7 @@ export default function App() {
             justifyContent: 'center',
           }}
         >
-          <h2 style={{ margin: 0 }}>Contacts</h2>
+          <h2 style={{ margin: 0, fontSize: 18 }}>Contacts:</h2>
           <Filter />
           <ContactList />
         </div>
