@@ -7,7 +7,7 @@ export default function ContactForm() {
   const contacts = useSelector(state => state.contacts);
 
   const onSubmit = e => {
-    e.preventDefault();
+    // e.preventDefault();
 
     const { name } = e.currentTarget;
     let isTaken = false;
