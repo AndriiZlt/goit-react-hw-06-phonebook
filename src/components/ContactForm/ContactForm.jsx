@@ -47,7 +47,7 @@ export default function ContactForm() {
           />
         </label>
         <label className={css.label}>
-          Number
+          Tel
           <input
             type="tel"
             name="number"
