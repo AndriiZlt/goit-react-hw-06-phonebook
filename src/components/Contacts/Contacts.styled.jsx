@@ -5,6 +5,7 @@ export const Ul = styled.ul`
   line-height: 22px;
   text-align: left;
   padding-left: 20px;
+  margin: 0;
 `;
 
 export const Btn = styled.button`

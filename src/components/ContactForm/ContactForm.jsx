@@ -40,7 +40,8 @@ export default function ContactForm() {
             name="name"
             maxLength="32"
             className={css.input}
-            pattern="[A-Za-z]{1,32}"
+            // pattern="[A-Za-z]{1,32}"
+            pattern="^(?:@(?:[a-z0-9-*~][a-z0-9-*._~]*)?/)?[a-z0-9-~][a-z0-9-._~]*$"
             title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
             required
           />
